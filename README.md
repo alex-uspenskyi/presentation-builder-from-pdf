@@ -1,6 +1,6 @@
 # Thinkific Presetation Builder
 
-This project was developed within Vanhackathon to resolve challenge #3 from Thinkific. It is plain **React app with Redux** using only browser capabilities like File API, Audio API, IndexedDB.
+This project was developed within Vanhackathon. It is plain **React app with Redux** using only browser capabilities like File API, Audio API, IndexedDB.
 
 This project supports common code style for React app, powered by ESLint and Prettier
 
@@ -12,7 +12,7 @@ This project supports common code style for React app, powered by ESLint and Pre
 - refactor settings saving. should be better architecture solution
 - add ability to remove slides
 - improve reading PDF process, get rid of **react-pdf-to-image** package
-- write tests
+- write more tests. only basic compiling test for App component exists
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
