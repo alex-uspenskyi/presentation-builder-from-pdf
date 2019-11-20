@@ -2,9 +2,15 @@
 
 This project was developed within Vanhackathon. It is plain **React app with Redux** using only browser capabilities like File API, Audio API, IndexedDB.
 
-This project supports common code style for React app, powered by ESLint and Prettier
+### This application is using
 
-## Further Improvements
+- Bootstrap for most UI
+- IndexedDB to store all presentation data, including images and audio, integrated to Redux using Thunk middleware
+- JS Zip to create zip file for export
+- React Mic to record and play audio
+- React-PDF-To-Image package, which should be replaced as it doesn't fit requrements as it is
+
+## Further Improvements/TODO
 
 - properly save WAV files
 - add WYSIWYG editor for description
